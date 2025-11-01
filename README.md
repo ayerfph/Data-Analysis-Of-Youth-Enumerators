@@ -1,23 +1,28 @@
-## Phase One: Setup Raw Data Into Data Frame
-1. Obtained the raw data
-- Convert the data into csv file
+# Progress Summary
 
-2. Setup virtual environment (python)
-- Install needed library (matplotlib, numpy, pandas)
+## Data setup
+- Acquired raw data
+- Loaded and converted raw data into a DataFrame
 
-3. Creating dataframe
-- turn raw data into dataframe
+## Data cleaning
+- Convert columns to appropriate datatypes
+- Replace nulls with 0 where applicable
+- Rename columns for clarity
+- Standardize text case (capitalize or uppercase where needed)
 
-4. Dataframe setup
-- Check datatypes
-- Clean the data
-- rename some column
-- all blank must changed into 0
-- All letters must be all caps
+## Export / serialization
+- Validate cleaned data table
+- Export cleaned DataFrame to CSV
 
-5. Export data
-- Export dataframe into csv file
+## Analysis preparation
+- Create lists/features for analysis
+- Implement lists in code and convert to DataFrames
+- Prepare DataFrames for analysis
 
-## Phase Two: Analyzed The Data And Create Multiple DataFrames
+## In progress
+- Ongoing tasks and refinements
 
-- Soon
+## Data visualization
+- Create visualizations for each analysis
+- Export visualizations to PNG and PDF
+- Organize output paths for reproducibility
